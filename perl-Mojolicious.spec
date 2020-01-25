@@ -3,7 +3,6 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %define		pdir	Mojolicious
-%include	/usr/lib/rpm/macros.perl
 Summary:	A next generation web framework for the Perl programming language
 Summary(pl.UTF-8):	Szkielet WWW następnej generacji dla języka programowania Perl
 Name:		perl-Mojolicious
