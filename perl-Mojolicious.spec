@@ -21,6 +21,7 @@ BuildRequires:	perl-Pod-Simple >= 3.09
 %endif
 BuildRequires:	perl-devel >= 1:5.16
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 Requires:	perl-Mojo = %{version}-%{release}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
