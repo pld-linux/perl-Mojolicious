@@ -6,12 +6,12 @@
 Summary:	A next generation web framework for the Perl programming language
 Summary(pl.UTF-8):	Szkielet WWW następnej generacji dla języka programowania Perl
 Name:		perl-Mojolicious
-Version:	9.39
-Release:	2
+Version:	9.54
+Release:	1
 License:	Artistic v2.0
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Mojolicious/%{pdir}-%{version}.tar.gz
-# Source0-md5:	44efebb6752de9d70c3a87bb7f464d93
+Source0:	https://www.cpan.org/authors/id/S/SR/SRI/%{pdir}-%{version}.tar.gz
+# Source0-md5:	b4ef3bb34e0cc2e7c7096124823e810e
 URL:		https://mojolicious.org/
 BuildRequires:	perl-ExtUtils-MakeMaker
 %if %{with tests}
